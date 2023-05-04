@@ -6,4 +6,4 @@ class MayonnaiseList(ListView):
     model = Mayonnaise
 
     def get_mayonnaise_by_id(self):
-        return Mayonnaise.objects.get(id=self.id)
+        return Mayonnaise.objects.get(pk=self.id)
