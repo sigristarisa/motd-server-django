@@ -76,13 +76,9 @@ WSGI_APPLICATION = 'motd.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test_db1',
-        'USER': 'mgzkawui',
-        'PASSWORD': 'NTcZCc9UOFhu1unX3-vBDM6_GS2xJ4NC',
-        'HOST': 'abul.db.elephantsql.com',
-        'PORT': '' 
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
