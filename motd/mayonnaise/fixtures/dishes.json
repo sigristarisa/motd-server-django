@@ -1,0 +1,51 @@
+[
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "vegetable",
+      "image": "/assets/dish-image/vegetable.png"
+    }
+  },
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "egg",
+      "image": "/assets/dish-image/egg.png"
+    }
+  },
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "meat",
+      "image": "/assets/dish-image/meat.png"
+    }
+  },
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "seafood",
+      "image": "/assets/dish-image/seafood.png"
+    }
+  },
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "bread",
+      "image": "/assets/dish-image/bread.png"
+    }
+  },
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "rice",
+      "image": "/assets/dish-image/rice.png"
+    }
+  },
+  {
+    "model": "mayonnaise.dish",
+    "fields": {
+      "name": "snack",
+      "image": "/assets/dish-image/snack.png"
+    }
+  }
+]
