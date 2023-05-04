@@ -1,6 +1,9 @@
 from django.shortcuts import render
+from django.views.generic import ListView
+from .models import Mayonnaise
 
-# Create your views here.
-def mayonnaise(request):
-    context = {id: 1}
-    return render(request, "mayonnaise/mayonnaise.html", context)
+class MayonnaiseList(ListView):
+    model = Mayonnaise
+
+    def get_mayonnaise_by_id(self):
+        return Mayonnaise.objects.get(id=self.id)

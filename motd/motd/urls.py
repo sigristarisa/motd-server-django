@@ -1,9 +1,9 @@
 
 from django.contrib import admin
 from django.urls import path
-from . import views
+from  mayonnaise import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.mayonnaise, name="mayonnaise")
+    path("",views.MayonnaiseList.as_view(), name="mayonnaise")
 ]
